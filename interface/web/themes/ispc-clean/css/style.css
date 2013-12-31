@@ -2583,7 +2583,7 @@ div.gs-container * {
 
 div.gs-container input {
 	background: url("../icons/x16_sprite.png") no-repeat 2px -119px #fff;
-	height: 20px;
+	height: 24px;
 	border: 1px solid #444;
 	padding: 0 22px 2px;
 	color: #444;
@@ -3523,6 +3523,7 @@ select,input,textarea {
 
 #content {
 	width: 80%;
+	min-height: 776px;
 	padding: 0px 10px 10px 10px;
 	border-left: 1px #ddd solid;
 	float: left;
