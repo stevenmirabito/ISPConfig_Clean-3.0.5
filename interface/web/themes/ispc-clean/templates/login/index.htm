@@ -1,8 +1,3 @@
-<tmpl_if name='sidebar_active'>
-<aside id="sidebar" class="login-sidebar">
-    {tmpl_var name='sidebar_records'}
-</aside>
-</tmpl_if>
 <div id="login-form">
     <img title="<tmpl_var name="app_title">" id="logo" alt="<tmpl_var name="app_title">" src="<tmpl_var name='app_logo'>">
     <div class="box-inner">
@@ -35,6 +30,11 @@
         </div>
     </div>
     <div class="box-bottom">
+        <tmpl_if name='sidebar_active'>
+        <aside id="sidebar" class="login-sidebar">
+            {tmpl_var name='sidebar_records'}
+        </aside>
+        </tmpl_if>
         <p class="powered">Powered by <a href="<tmpl_var name="app_link">" target="_blank"><tmpl_var name="app_title"></a></p>
     </div>
 </div>
