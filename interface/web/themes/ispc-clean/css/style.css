@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 .swap {
 	background-repeat: no-repeat;
@@ -22,13 +22,13 @@ div#ir-Yes,div#ir-No:before {
 
 #ir-Yes:before {
 	height: 16px;
-	content: "✓ ";
+	content: "\e677";
 	color: green;
 }
 
 #ir-No:before {
 	height: 16px;
-	content: "✕ ";
+	content: "\e678";
 	color: red;
 }
 
@@ -172,35 +172,35 @@ button.negative {
 }
 
 .iconstxt.icoPositive:before {
-	content: '\2713';
+	content: '\e677';
 }
 
 .iconstxt.icoNegative:before {
-	content: '\2716';
+	content: '\e67e';
 }
 
 .iconstxt.icoAdd:before {
-	content: '\2795';
+	content: '\e67d';
 }
 
 .iconstxt.icoKey:before {
-	content: '🔑';
+	content: '\e64a';
 }
 
 .iconstxt.icoDelete:before {
-	content: '\2796';
+	content: '\e67c';
 }
 
 .iconstxt.icoDownload:before {
-	content: '📥';
+	content: '\e6a3';
 }
 
 .iconstxt.icoRestore:before {
-	content: '📤';
+	content: '\e6a5';
 }
 
 .iconstxt.icoSend:before {
-	content: '\27A6';
+	content: '\e60c';
 }
 
 .icons16 {
@@ -246,51 +246,51 @@ button.icons16 {
 }
 
 .icons16.icoEdit:before {
-	content: '\270e';
+	content: '\e606';
 	position: absolute;
 	left: 3px;
 }
 
 .icons16.icoLoginAs:before {
-	content: '\27a6';
+	content: '\e676';
 	position: absolute;
 	left: 3px;
 }
 
 .icons16.icoPDF:before {
-	content: '\e736';
+	content: '\e638';
 	position: absolute;
 	left: 3px;
 }
 
 .icons16.icoDelete:before {
-	content: '\2796';
+	content: '\e67c';
 	color: red;
 	position: absolute;
 	left: 3px;
 }
 
 .icons16.icoWebmailer:before {
-	content: '\2709';
+	content: '\e604';
 	position: absolute;
 	left: 3px;
 }
 
 .icons16.icoFilter:before {
-	content: '\e728';
+	content: '\e614';
 	position: absolute;
 	left: 3px;
 	top: 3px;
 }
 
 .icons16.icoDbAdmin:before {
-	content: '\e754';
+	content: '\e664';
 	position: absolute;
 	left: 3px;
 }
 
 .icons16.icoAction:before {
-	content: '\26a1';
+	content: '\e640';
 	position: absolute;
 	left: 3px;
 }
@@ -302,7 +302,7 @@ button.icons16 {
 
 .icons16.icoLink:before {
 	font-family: Entypo;
-	content: '🔗';
+	content: '\e628';
 	position: absolute;
 	left: 3px;
 }
@@ -316,7 +316,13 @@ span.icons16-empty {
 }
 
 @font-face {
-	font-family:'Entypo';src:url("../fonts/entypo.eot?#iefix") format("embedded-opentype"),url("../fonts/entypo.woff") format("woff"),url("../fonts/entypo.ttf") format("truetype"),url("../fonts/entypo.svg#svgEntypo") format("svg");font-weight:normal;font-style:normal;
+	font-family: 'Entypo';
+	src: url("../fonts/entypo.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/entypo.woff") format("woff"),
+		 url("../fonts/entypo.ttf") format("truetype"),
+		 url("../fonts/entypo.svg#svgEntypo") format("svg");
+	font-weight: normal;
+	font-style: normal;
 }
 
 select.withicons option {
@@ -1376,7 +1382,7 @@ a[href$="#logout"]:after {
 	font-family: Entypo;
 	padding-left: 5px;
 	padding-right: 20px;
-	content: '\e741';
+	content: '\e675';
 	color: black;
 }
 
@@ -1425,67 +1431,67 @@ a[href$="#logout"]:after {
 
 .topnav-:before {
 	font-family: "Entypo";
-	content: '🔑';
+	content: '\e64a';
 }
 
 .topnav-tools:before {
 	font-family: "Entypo";
-	content: '\2692';
+	content: '\e62b';
 }
 
 .topnav-admin:before {
 	font-family: "Entypo";
-	content: '\e74e';
+	content: '\e656';
 }
 
 .topnav-sites:before {
 	font-family: "Entypo";
-	content: '📁';
+	content: '\e69f';
 }
 
 .topnav-monitor:before {
 	font-family: "Entypo";
-	content: '📊';
+	content: '\e671';
 }
 
 .topnav-help:before {
 	font-family: "Entypo";
-	content: '\e788';
+	content: '\e63b';
 }
 
 .topnav-mail:before,.topnav-mailuser:before {
 	font-family: "Entypo";
-	content: '\2709';
+	content: '\e604';
 }
 
 .topnav-vm:before {
 	font-family: "Entypo";
-	content: '\e738';
+	content: '\e6a0';
 }
 
 .topnav-domain:before {
 	font-family: "Entypo";
-	content: '🌎';
+	content: '\e612';
 }
 
 .topnav-dns:before {
 	font-family: "Entypo";
-	content: '\e723';
+	content: '\e603';
 }
 
 .topnav-dashboard:before {
 	font-family: "Entypo";
-	content: '\2302';
+	content: '\e622';
 }
 
 .topnav-client:before {
 	font-family: "Entypo";
-	content: '👥';
+	content: '\e60e';
 }
 
 .topnav-billing:before {
 	font-family: "Entypo";
-	content: '💳';
+	content: '\e663';
 }
 
 #sideNav {
@@ -1641,47 +1647,47 @@ a.news-item {
 }
 
 .dashboard-modules.tools a:before {
-	content: '\2692';
+	content: '\e62b';
 }
 
 .dashboard-modules.admin a:before {
-	content: '\e74e';
+	content: '\e656';
 }
 
 .dashboard-modules.sites a:before {
-	content: '📁';
+	content: '\e69f';
 }
 
 .dashboard-modules.monitor a:before {
-	content: '📊';
+	content: '\e671';
 }
 
 .dashboard-modules.help a:before {
-	content: '\e788';
+	content: '\e63b';
 }
 
 .dashboard-modules.mail a:before {
-	content: '\2709';
+	content: '\e604';
 }
 
 .dashboard-modules.vm a:before {
-	content: '\e738';
+	content: '\e6a0';
 }
 
 .dashboard-modules.domain a:before {
-	content: '🌎';
+	content: '\e612';
 }
 
 .dashboard-modules.dns a:before {
-	content: '\e723';
+	content: '\e603';
 }
 
 .dashboard-modules.client a:before {
-	content: '👥';
+	content: '\e60e';
 }
 
 .dashboard-modules.billing a:before {
-	content: '💳';
+	content: '\e663';
 }
 
 .panel_dashboard h2 {
